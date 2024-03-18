@@ -517,6 +517,10 @@ class DocumentSentimentDataset(Dataset):
         self.data = self.load_dataset(dataset_path)
         self.tokenizer = tokenizer
         self.no_special_token = no_special_token
+        
+        # Update LABEL2INDEX mapping based on unique labels in the dataset
+        unique_labels = self.data['sentiment'].unique()
+        self.LABEL2INDEX = {label: i for i, label in enumerate(unique_labels)}
     
     def __getitem__(self, index):
         data = self.data.loc[index,:]
