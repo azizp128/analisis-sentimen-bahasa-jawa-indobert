@@ -395,6 +395,7 @@ class EmotionDetectionDataset(Dataset):
     def load_dataset(self, path):
         # Load dataset
         dataset = pd.read_csv(path)
+        df = df.iloc[:, :2] # new line
         dataset['label'] = dataset['label'].apply(lambda sen: self.LABEL2INDEX[sen])
         return dataset
 
