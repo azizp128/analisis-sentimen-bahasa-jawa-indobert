@@ -8,7 +8,7 @@ examples = [["Aku tresno banget karo koe mas."],
     ["Mbok ojo dadi wong sing nganyeli."], 
     ["Teles kebes netes eluh neng dadaku."]]
 
-demo = gr.Interface.load(name=name, title=title, description=descriptions, article=article, examples=examples, allow_flagging="auto")
+demo = gr.load(name=name, title=title, description=descriptions, article=article, examples=examples, allow_flagging="auto")
 
 if __name__ == "__main__":
     demo.launch()
