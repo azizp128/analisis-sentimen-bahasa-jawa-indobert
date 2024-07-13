@@ -10,7 +10,7 @@ examples = [["Aku tresno banget karo koe mas."],
     ["Aku sayang karo koe beb, tapi ngapusi"],
     ["Sedih aku. Lagi mangan iwakku malah dicolong pitek"]]
 
-demo = gr.Interface.load(name=name, title=title, description=descriptions, article=article, examples=examples, allow_flagging="auto")
+demo = gr.Interface.load(api_name=name, title=title, description=descriptions, article=article, examples=examples, allow_flagging="auto")
 
 if __name__ == "__main__":
     demo.launch()
