@@ -1,5 +1,8 @@
 import gradio as gr
 
+def predict(text):
+    return text
+
 name = "models/azizp128/jawa-sentiment-analysis-indobert"
 title = "Analisis Sentimen Bahasa Jawa Ngoko Lugu"
 descriptions = "Analisis Sentimen Bahasa Jawa adalah aplikasi yang dapat memprediksi sentimen positif atau negatif dari teks kalimat berbahasa Jawa Ngoko Lugu."
@@ -10,7 +13,7 @@ examples = [["Aku tresno banget karo koe mas."],
     ["Aku sayang karo koe beb, tapi ngapusi"],
     ["Sedih aku. Lagi mangan iwakku malah dicolong pitek"]]
 
-demo = gr.Interface(api_name=name, title=title, description=descriptions, article=article, examples=examples, allow_flagging="auto")
+demo = gr.Interface(fn=predict, inputs="textbox", outputs="textbox", api_name=name, title=title, description=descriptions, article=article, examples=examples, allow_flagging="auto")
 
 if __name__ == "__main__":
     demo.launch()
