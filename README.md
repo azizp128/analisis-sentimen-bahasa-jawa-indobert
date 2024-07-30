@@ -8,7 +8,7 @@ Model ini merupakan model untuk analisis sentimen yang dirancang khusus untuk te
 - Paper : [Penerapan Metode Transfer Learning Pada Indobert Untuk Analisis Sentimen Teks Bahasa Jawa Ngoko Lugu](https://e-jurnal.stmikbinsa.ac.id/index.php/simkom/article/view/478)
 
 > [!NOTE]  
-> Jika playground error, jalankan model dengan API HunggiFace melalui [Local/Google Collab](notebook\playground.ipynb)
+> Jika playground error, jalankan model dengan API HunggiFace melalui [Local/Google Collab](notebook/playground.ipynb)
 
 ## Screenshot
 ![Web Page Screenshot](assets/screenshot.png)
