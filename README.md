@@ -1,6 +1,6 @@
 # Analisis-Sentimen-Bahasa-Jawa-IndoBERT
 
-Moodel Deep Learning berbasis IndoBERT yang dapat memprediksi ‘positif’ atau ‘negatif’ pada teks berbahasa Jawa Ngoko Lugu. Model ini dilatih pada dataset yang diperoleh dari website Twitter/X melalui metode crawling, dan dilakukan proses pelabelan secara manual oleh peneliti. 
+Moodel Deep Learning berbasis IndoBERT yang dapat memprediksi sentimen ‘positif’ atau ‘negatif’ pada teks berbahasa Jawa Ngoko Lugu. Model ini dilatih pada dataset yang diperoleh dari website Twitter/X melalui metode crawling, dan dilakukan proses pelabelan secara manual oleh peneliti. 
 
 Model pre-trained yang digunakan pada penelitian ini adalah [IndoBERT-Base-P1](https://huggingface.co/indobenchmark/indobert-base-p1 ). Sebelum proses pelatihan model, preprocessing dataset dilakukan untuk membersihkan teks dari karakter-karakter yang tidak relevan untuk kasus analisis sentimen. 
 
