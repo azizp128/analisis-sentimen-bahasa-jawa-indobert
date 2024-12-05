@@ -7,13 +7,14 @@ Hasil akhir model di-upload ke [Hungging Face Hub](https://huggingface.co/docs/h
 
 Penjelasan lebih detail terkait penelitian ini dapat dibaca melalui paper: [Penerapan Metode Transfer Learning Pada Indobert Untuk Analisis Sentimen Teks Bahasa Jawa Ngoko Lugu](https://e-jurnal.stmikbinsa.ac.id/index.php/simkom/article/view/478).
 
-- Playground : [Analisis Sentimen Bahasa Jawa Ngoko Lugu](https://analisis-sentimen-bahasa-jawa-9be9aaad1b5f.herokuapp.com/)
+- Playground : [Analisis Sentimen Bahasa Jawa Ngoko Lugu](https://analysis-sentimen-bahasa-jawa-ngoko-lugu.streamlit.app/)
 - Model on HunggingFace : [Analisis Sentimen Bahasa Jawa](https://huggingface.co/azizp128/javanese-sentiment-analysis-indobert)
 - IndoBERT Pre-trained model : [IndoBERT Base Model P1](https://huggingface.co/indobenchmark/indobert-base-p1)
 - Paper : [Penerapan Metode Transfer Learning Pada Indobert Untuk Analisis Sentimen Teks Bahasa Jawa Ngoko Lugu](https://e-jurnal.stmikbinsa.ac.id/index.php/simkom/article/view/478)
 
-> [!NOTE]  
-> Jika playground error, jalankan model dengan API HunggiFace melalui [Local/Google Collab](notebook/playground.ipynb)
-
 # Screenshot
-![Web Page Screenshot](assets/screenshot.png)
+## Streamlit
+![Streamlit Web Page Screenshot](assets/streamlit-screenshot.png)
+
+## Gradio
+![Gradio Web Page Screenshot](assets/gradio-screenshot.png)
