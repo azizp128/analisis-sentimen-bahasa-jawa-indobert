@@ -14,7 +14,7 @@ Penjelasan lebih detail terkait penelitian ini dapat dibaca melalui paper: [Pene
 
 # Screenshot
 ## Streamlit
-![Streamlit Web Page Screenshot](assets/streamlit-screenshot.png)
+![Streamlit Web Page Screenshot](https://raw.githubusercontent.com/azizp128/analisis-sentimen-bahasa-jawa-indobert/refs/heads/main/assets/streamlit-screenshot.png)
 
 ## Gradio
-![Gradio Web Page Screenshot](assets/gradio-screenshot.png)
+![Gradio Web Page Screenshot](https://raw.githubusercontent.com/azizp128/analisis-sentimen-bahasa-jawa-indobert/refs/heads/main/assets/gradio-screenshot.png)
